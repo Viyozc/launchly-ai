@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launchly — Is your course sales page ready to convert? (free conversion-readiness audit)</title>
+  <meta name="description" content="Launchly scores your course or digital-product sales page like a conversion operator would — headline & outcome, pain hook, social proof, benefit clarity, CTA, pricing, and SEO. Free 0–100 audit, no signup. Find out if your page is leaving sales on the table." />
+  <link rel="canonical" href="https://Viyozc.github.io/launchly-ai/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Launchly — Is your course sales page ready to convert? (free conversion-readiness audit)" />
+  <meta property="og:description" content="Launchly scores your course or digital-product sales page on the seven signals that decide conversion. Free 0–100 audit, no signup." />
+  <meta property="og:url" content="https://Viyozc.github.io/launchly-ai/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Launchly — Is your course sales page ready to convert? (free conversion-readiness audit)" />
+  <meta name="twitter:description" content="Launchly scores your course or digital-product sales page on the seven signals that decide conversion. Free 0–100 audit, no signup." />
+
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Launchly","url":"https://Viyozc.github.io/launchly-ai/","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+</head>
+<body>
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Launchly<span class="brand-dot">.</span></a>
+      <nav class="nav-links">
+        <a href="#audit">Free Audit</a>
+        <a href="#how">How it works</a>
+        <a href="#why">Why it matters</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="#audit">Run free audit</a>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="badge">For Gumroad, Teachable, Kajabi &amp; Skool creators</span>
+        <h1>Is your course sales page <span class="hl">ready to convert?</span></h1>
+        <p class="lede">
+          On Gumroad, <strong>44%</strong> of products earn <strong>$0</strong>. The winners aren't smarter — their
+          sales pages are. Launchly scores your course or digital-product page on the seven signals that decide
+          conversion, and shows you exactly what to fix first.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#audit">Run a free Conversion Audit →</a>
+          <span class="hero-note">No signup required · 60 seconds · 100% free</span>
+        </div>
+        <div class="hero-stats">
+          <div><strong>7</strong><span>signals scored</span></div>
+          <div><strong>0–100</strong><span>readiness score</span></div>
+          <div><strong>44%</strong><span>products that earn $0</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="score-card">
+          <div class="score-ring"><span class="score-num" id="heroScore">—</span><span class="score-grad">/100</span></div>
+          <div class="score-meta">
+            <span class="grade" id="heroGrade">Grade</span>
+            <span class="score-sub">Your page's readiness</span>
+          </div>
+          <div class="mini-bars">
+            <div class="mbar"><i style="width:70%"></i><span>Headline</span></div>
+            <div class="mbar"><i style="width:60%"></i><span>Social proof</span></div>
+            <div class="mbar"><i style="width:55%"></i><span>CTA</span></div>
+            <div class="mbar"><i style="width:50%"></i><span>Pricing</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Audit Tool ===== -->
+  <section class="audit" id="audit">
+    <div class="container">
+      <div class="section-head">
+        <h2>Free Course Sales-Page Conversion Audit</h2>
+        <p>Describe your current sales page. We'll score it on the seven signals that separate pages that sell from pages that sit — and hand you a prioritized fix list. No account, no credit card.</p>
+      </div>
+
+      <div class="audit-grid">
+        <!-- Input -->
+        <form class="audit-form" id="auditForm" novalidate>
+          <label class="field">
+            <span>Where do you sell your course / digital product?</span>
+            <select id="fPlatform">
+              <option value="gumroad">Gumroad</option>
+              <option value="teachable">Teachable</option>
+              <option value="kajabi">Kajabi</option>
+              <option value="thinkific">Thinkific</option>
+              <option value="skool">Skool</option>
+              <option value="systeme">Systeme.io</option>
+              <option value="self">Self-hosted / other</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Paste your main sales-page headline</span>
+            <textarea id="fHeadline" rows="2" placeholder="e.g. Learn Python in 30 Days and Land Your First Dev Job"></textarea>
+          </label>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Does your headline promise a specific outcome?</span>
+              <select id="fOutcome">
+                <option value="yes">Yes — clear result for the buyer</option>
+                <option value="partial">Sort of / vague benefit</option>
+                <option value="no">No — just names the topic</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Do you open with the buyer's problem before pitching?</span>
+              <select id="fPain">
+                <option value="yes">Yes — names the pain first</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="no">No — jumps straight to features</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span>What social proof do you show on the page?</span>
+            <select id="fProof">
+              <option value="strong">Testimonials + real results / numbers</option>
+              <option value="some">A few testimonials</option>
+              <option value="none">None yet</option>
+            </select>
+          </label>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Are benefits framed around the buyer (outcomes, not features)?</span>
+              <select id="fBenefit">
+                <option value="yes">Yes — outcome-led</option>
+                <option value="partial">Mixed</option>
+                <option value="no">No — feature-list only</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>One clear CTA above the fold?</span>
+              <select id="fCta">
+                <option value="yes">Yes — one clear ask</option>
+                <option value="sometimes">Sometimes / competing CTAs</option>
+                <option value="no">No / vague</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Pricing &amp; packaging</span>
+              <select id="fPrice">
+                <option value="freepaid">Free lead-magnet + paid tier</option>
+                <option value="tiers">2–3 paid tiers</option>
+                <option value="single">Single price</option>
+                <option value="unclear">Unclear / hidden</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Do you target a specific keyword (in title/H1)?</span>
+              <select id="fSeo">
+                <option value="yes">Yes — one clear search intent</option>
+                <option value="partial">Loosely</option>
+                <option value="no">No / not optimized</option>
+              </select>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Run my free audit →</button>
+          <p class="form-fine">Everything runs in your browser. We never store your headline until you ask us to email the report.</p>
+        </form>
+
+        <!-- Result -->
+        <div class="audit-result" id="auditResult" hidden>
+          <div class="result-top">
+            <div class="score-ring lg">
+              <span class="score-num" id="resScore">0</span>
+              <span class="score-grad">/100</span>
+            </div>
+            <div>
+              <span class="grade big" id="resGrade">—</span>
+              <p class="result-sub" id="resSummary">—</p>
+            </div>
+          </div>
+
+          <div class="bars" id="resBars"></div>
+
+          <div class="tips">
+            <h3>What to fix first</h3>
+            <ul id="resTips"></ul>
+          </div>
+
+          <form class="email-capture" id="emailForm" action="https://formspree.io/f/meeyzkdp" method="POST">
+            <label for="fEmail">Get the full report + weekly course-launch tips by email</label>
+            <div class="email-row">
+              <input type="email" id="fEmail" name="email" placeholder="you@email.com" required />
+              <button type="submit" class="btn btn-primary">Email my report</button>
+            </div>
+            <p class="form-fine" id="emailNote">No spam. Unsubscribe anytime.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-head">
+        <h2>How Launchly works</h2>
+        <p>Three steps from a page that sits to a page that sells.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <h3>Audit</h3>
+          <p>Paste a few details about your sales page. Launchly scores the seven conversion signals buyers actually respond to — not vanity metrics.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <h3>Improve</h3>
+          <p>Get a prioritized fix list — the exact headline, proof, CTA, and pricing changes that move the needle.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <h3>Sell</h3>
+          <p>Apply the changes, watch conversion climb, and reuse the playbook across every product you launch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why ===== -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why course sales pages are a power-law game</h2>
+        <p>The course is rarely the problem. The page is.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <h3>44% earn $0</h3>
+          <p>On Gumroad, 44% of 146K products made literally nothing. The top 1% took 77% of revenue. The gap is almost always conversion, not content quality.</p>
+        </div>
+        <div class="why-card">
+          <h3>Outcome beats topic</h3>
+          <p>"Learn Python in 30 Days and Land Your First Dev Job" outsells "Python Course" every time. A headline with a promise is the single highest-leverage fix.</p>
+        </div>
+        <div class="why-card">
+          <h3>Proof closes doubt</h3>
+          <p>Pages with real results and testimonials convert far better. "Generic dies in silence" — specificity (one narrow win) beat vague breadth.</p>
+        </div>
+        <div class="why-card">
+          <h3>Pricing frames value</h3>
+          <p>Products priced $30–49 convert 28% better than under-$10 ones. Free lead-magnet + paid tier builds the funnel that compounds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Is the audit really free?</summary>
+          <p>Yes. The on-page audit runs entirely in your browser and costs nothing. No account needed.</p>
+        </details>
+        <details>
+          <summary>Do I need to connect my course platform?</summary>
+          <p>No. You describe your setup with a few clicks and paste your headline. Launchly scores the strategy, not your private student data — so it works before you've optimized anything.</p>
+        </details>
+        <details>
+          <summary>How is the score calculated?</summary>
+          <p>We weight headline & outcome, pain hook, social proof, benefit clarity, CTA strength, pricing & packaging, and SEO / keyword targeting — the signals that drive a stranger from "maybe" to "buy".</p>
+        </details>
+        <details>
+          <summary>Will this guarantee I sell more?</summary>
+          <p>No tool can. But most of the gap between a $0 product and a winning one is operational — headline, proof, CTA, pricing. Launchly shows you exactly where your gaps are.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="#top">Launchly<span class="brand-dot">.</span></a>
+        <p class="footer-sub">Conversion-readiness audits for course &amp; digital-product creators. AI-assisted, human-approved.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:13px;margin-top:10px;">
+        <span style="color:var(--muted);font-weight:600;">More free audit tools:</span>
+        <a href="https://Viyozc.github.io/listora/" style="color:var(--brand-dk);font-weight:600;">Listora</a><a href="https://Viyozc.github.io/booklisting-ai/" style="color:var(--brand-dk);font-weight:600;">BookListing</a><a href="https://Viyozc.github.io/mockly-ai/" style="color:var(--brand-dk);font-weight:600;">Mockly</a><a href="https://Viyozc.github.io/newsletterly-ai/" style="color:var(--brand-dk);font-weight:600;">Newsletterly</a><a href="https://Viyozc.github.io/launchly-ai/" style="color:var(--brand-dk);font-weight:600;">Launchly</a>
+      </div>
+      <p class="footer-fine">Launchly is an independent tool and is not affiliated with Gumroad, Teachable, Kajabi, Thinkific, or Skool. Trademarks belong to their owners.</p>
+    </div>
+  </footer>
+
+  <script src="assets/audit.js"></script>
+</body>
+</html>
