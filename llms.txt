@@ -1,0 +1,19 @@
+# Launchly
+
+> Launchly scores your course or digital-product sales page like a conversion operator would — headline & outcome, pain hook, social proof, benefit clarity, CTA, pricing, and SEO. Free 0–100 audit, no signup. Find out if your page is leaving sales on the table.
+
+Canonical host: https://launchly.aiyes.space
+
+## Core pages
+
+- [Home](https://launchly.aiyes.space/)
+
+## Blog
+
+- [How to Write a Sales Page: The Structure That Sells](https://launchly.aiyes.space/blog/how-to-write-sales-page/)
+- [Course Sales Page Conversion: 7 Elements That Actually Sell](https://launchly.aiyes.space/blog/)
+
+## Canonical discovery
+
+- [Sitemap](https://launchly.aiyes.space/sitemap.xml)
+- [Robots](https://launchly.aiyes.space/robots.txt)
